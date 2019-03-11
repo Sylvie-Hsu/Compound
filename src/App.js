@@ -11,8 +11,34 @@ class App extends Component {
       isAvailableNet: false,
       isTestNet: false,
       accountID: "",
-      accountBalance: "0"
+      accountBalance: "0",
+      assets: [
+        {
+          id: "Basic Attention Token  BAT",
+          rate: 0.44,
+          balance: "-"
+        },
+        {
+          id: "DAI  DAI",
+          rate: 9.78,
+          balance: "-"
+        },
+        {
+          id: "Angur  REP",
+          rate: 0.01,
+          balance: "-"
+        }
+      ]
     };
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        <Info account={this.state} />
+        <Page account={this.state} />
+      </React.Fragment>
+    );
   }
 
   componentWillMount() {
@@ -96,15 +122,6 @@ class App extends Component {
       }.bind(this)
     );
   };
-
-  render() {
-    return (
-      <React.Fragment>
-        <Info account={this.state} />
-        <Page account={this.state} />
-      </React.Fragment>
-    );
-  }
 }
 
 export default App;
