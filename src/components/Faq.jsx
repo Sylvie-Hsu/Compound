@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
-class DAI extends Component {
+class Faq extends Component {
   state = {};
   render() {
     return (
       <div>
-        <h1>hhhhhhhhh</h1>
+        <h2>Faq</h2>
       </div>
     );
   }
 }
 
-export default DAI;
+export default Faq;

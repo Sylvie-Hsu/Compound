@@ -1,26 +1,19 @@
 import React, { Component } from "react";
-import { Card, Col, Row } from "antd";
+import { Statistic, Col, Row } from "antd";
 
 class Balance extends Component {
-  state = {};
   render() {
     return (
       <div style={{ background: "#00000", padding: "30px" }}>
         <Row gutter={16}>
           <Col span={8}>
-            <Card title="Supply Balance" bordered={false}>
-              0.0000
-            </Card>
+            <Statistic title="Supply Balance" value={0.1466} />
           </Col>
           <Col span={8}>
-            <Card title="Borrow Balance" bordered={false}>
-              0.0000
-            </Card>
+            <Statistic title="Borrow Balance" value={0.3512} />
           </Col>
           <Col span={8}>
-            <Card title="Available to Borrow" bordered={false}>
-              0.0000
-            </Card>
+            <Statistic title="Available to Borrow" value={0.0698} />
           </Col>
         </Row>
       </div>

@@ -6,17 +6,20 @@ var initState = {
   accountBalance: "0",
   assets: [
     {
-      id: "Basic Attention Token  BAT",
+      id: "BAT",
+      name: "Basic Attention Token",
       rate: 0.44,
       balance: "-"
     },
     {
-      id: "DAI  DAI",
+      id: "DAI",
+      name: "DAI",
       rate: 9.78,
       balance: "-"
     },
     {
-      id: "Angur  REP",
+      id: "REP",
+      name: "Angur",
       rate: 0.01,
       balance: "-"
     }
