@@ -6,22 +6,28 @@ var initState = {
   accountBalance: "0",
   assets: [
     {
-      id: "BAT",
-      name: "Basic Attention Token",
-      rate: 0.44,
-      balance: "-"
+      id: "WETH",
+      name: "Wrapped Ether",
+      rate: 42.87,
+      balance: "-",
+      supplyInterestRate: 9.89,
+      borrowInterestRate: 16.56
     },
     {
       id: "DAI",
       name: "DAI",
       rate: 9.78,
-      balance: "-"
+      balance: "-",
+      supplyInterestRate: 9.89,
+      borrowInterestRate: 16.56
     },
     {
       id: "REP",
       name: "Angur",
       rate: 0.01,
-      balance: "-"
+      balance: "-",
+      supplyInterestRate: 9.89,
+      borrowInterestRate: 16.56
     }
   ]
 };

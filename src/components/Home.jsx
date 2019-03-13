@@ -18,7 +18,7 @@ class Home extends Component {
         return (
           <Card key={asset.id}>
             <Card.Grid style={gridStyle}>
-              <Link to={"/Assets/" + asset.id}>
+              <Link to={"/Asset/" + asset.id}>
                 <Row gutter={16}>
                   <Col span={8}>
                     <h4>{asset.name}</h4>
