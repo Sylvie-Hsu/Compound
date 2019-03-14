@@ -1,3 +1,10 @@
+# Compound
+
+This project uses **react&&react-router&&redux** to build front-end of financial decentralized application.
+![home](./src/pics/home.png)
+![login](./src/pics/login.png)
+![require](./src/pics/require.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
