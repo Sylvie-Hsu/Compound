@@ -1,6 +1,6 @@
 # Compound
 
-This project uses **react&&react-router&&redux** to build front-end of financial decentralized application.
+This project uses **React&&React-router&&Redux** to build front-end of financial decentralized application.
 ![home](./src/pics/home.png)
 ![login](./src/pics/login.png)
 ![require](./src/pics/require.png)
